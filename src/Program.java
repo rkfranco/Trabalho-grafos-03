@@ -1,3 +1,7 @@
+// Alunos
+// Rodrigo Kapulka Franco
+// Lorhan Melo
+
 import java.util.Scanner;
 
 public class Program {
@@ -8,7 +12,7 @@ public class Program {
 	public static void main(String[] args) {
 		int[][] grafo = entradaGrafo();
 		int custo = Kruskal.executar(grafo, arestas);
-		System.out.println("Custo total: " + custo);
+		System.out.println("Custo total mínimo: " + custo);
 	}
 
 	public static int[][] entradaGrafo() {

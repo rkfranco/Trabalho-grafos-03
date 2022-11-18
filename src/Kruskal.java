@@ -1,3 +1,7 @@
+// Alunos
+// Rodrigo Kapulka Franco
+// Lorhan Melo
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 
