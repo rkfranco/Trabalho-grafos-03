@@ -7,9 +7,10 @@ import java.util.LinkedList;
 
 public class Kruskal {
 
-	private static LinkedList<ArrayList<Integer>> conjuntos = new LinkedList<ArrayList<Integer>>();
+	private static LinkedList<ArrayList<Integer>> conjuntos;
 
 	public static int executar(int[][] grafo, int arestas) {
+		conjuntos = new LinkedList<ArrayList<Integer>>();
 		for (int i = 0; i < grafo.length; i++) {
 			makeSet(i);
 		}
